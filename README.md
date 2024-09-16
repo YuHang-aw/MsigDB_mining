@@ -129,3 +129,11 @@ pip install -r requirements.txt
 ```
 3. Download the dataset as instructed in the `Data Availability` section and place it in the `data/` directory.
 4. Run the preprocessing, hyperparameter search and training scripts as described above.
+
+#Data Availability
+Due to the size of the datasets, they are not included in this repository. Please download the required datasets from the following links:
+[MSigDB Download Page](https://www.gsea-msigdb.org/gsea/msigdb)
+Ensure that the data is placed in the correct directory as specified above.
+
+#License
+This project is licensed under the MIT Licens

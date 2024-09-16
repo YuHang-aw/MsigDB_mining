@@ -1,0 +1,12 @@
+cupy
+dask[array]
+networkx
+plotly
+scikit-learn
+matplotlib
+torch
+torch-geometric
+pandas
+tqdm
+joblib
+umap-learn

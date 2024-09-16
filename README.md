@@ -5,6 +5,22 @@ Extend beyond conventional bipartite models by integrating attribute-driven know
 
 This repository contains code for exploring biological networks and discovering relationships between genes and biological terms using the Node2Vec algorithm. The project includes functionality for data preprocessing, hyperparameter search, training, and cross-species validation. 
 
+## Term Embeddings Dimensionality Reduction (64-dim to 2-dim)
+
+Below are visualizations of the term embeddings and the minimum spanning tree:
+
+<p align="center">
+  <img src="pic/D64/Hs_termsFromMsigDB_PCA_64.png" alt="Term Embeddings PCA" width="30%">
+  <img src="pic/Hs_termsFromMsigDB_TSNE_64.png" alt="Term Embeddings <i>t</i>-SNE" width="30%">
+  <img src="pic/Hs_termsFromMsigDB_UMAP_64.png" alt="Term Embeddings UMAP" width="30%">
+</p>
+
+## MST
+
+We implemented a 5% distance threshold, retaining only the shortest distances among the nodes. The visualization of the MST was facilitated using Python’s Plotly library, employing a spring layout to effectively position the nodes within a two-dimensional space. The nodes are color-coded according to their respective groups, enabling rapid identification and analysis of related terms.
+
+<iframe src="pic/D64/plotly_graph_filtered.html" width="800" height="600"></iframe>
+
 ## Data Preprocessing
 
 The data must contain a two-column dataframe where the left column represents biological terms and the right column represents gene names in a many-to-many relationship.

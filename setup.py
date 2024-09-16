@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     description='',
     author='Yuhang Huang',
-    url='',
+    url='https://github.com/YuHang-aw/MsigDB_mining',
     install_requires=requirements,  
     python_requires='>=3.8',
 )

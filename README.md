@@ -19,7 +19,6 @@ Below are visualizations of the term embeddings and the minimum spanning tree:
 
 We implemented a 5% distance threshold, retaining only the shortest distances among the nodes. The visualization of the MST was facilitated using Python’s Plotly library, employing a spring layout to effectively position the nodes within a two-dimensional space. The nodes are color-coded according to their respective groups, enabling rapid identification and analysis of related terms.
 
-[View the interactive MST visualization here](https://github.com/YuHang-aw/MsigDB_mining/blob/main/pic/D64/plotly_graph_filtered.html)
 
 ## Data Preprocessing
 
